@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>App</title>
+    <link href='http://fonts.googleapis.com/css?family=Alice' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/custom.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap.min.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script>
+
+$(document).ready(function( ){
+
+//    $('.social').hover(function(e) {
+//        console.log(e);
+//        $(this).hide().fadeIn('slow');
+//    }
+//                       );
+
+    $('#facebook').hover(function(){
+        $(this).attr('src', 'facebookbig2lightpink2.png');
+        },function(){
+            $(this).attr('src', 'facebookbig2.png');
+        })
+
+    $('#twitter').hover(function(){
+        $(this).attr('src', 'twwhite1lightpink2.png');
+        },function(){
+            $(this).attr('src', 'twwhite1.png');
+    })
+
+    $('#google').hover(function(){
+        $(this).attr('src', 'googlewhite2lightpink.png');
+        },function(){
+            $(this).attr('src', 'googlewhite2.png');
+    })
+
+});
+
+</script>
+
+</head>
+<body>
+
+<div style='background-color: #c72c48'>
+
+<p class='text-right'><a class='social' href='http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>&t=<?php the_title(); ?>' target='_blank' title='Share on Facebook'> <img id='facebook' src='/facebookbig2.png'></a> <a class='social' href='http://twitter.com/share?url=<?php the_permalink(); ?>&text=<?php the_title(); ?>&via=TWITTER-HANDLE' target='_blank' alt='Tweet This!' title='Tweet This!'><img id='twitter' src='/twwhite1.png'></a> <a class='social' href='https://plus.google.com/share?url=<?php the_permalink(); ?>' target='_blank' title='Share on Google+'><img id='google' src='/googlewhite2.png' alt='Post it on Google+'/></a><span style='color:#c72c48'>h</span></p>
+
+</div>
+
+    <div class='container'>
+
+<!--<div class="navbar">
+  <a class="navbar-brand">Loves Messages</a>
+  <ul class="nav navbar-nav">
+    <li class="active"><a href="/tasks">Home</a></li>
+    <li><a href="french">French</a></li>
+    <li><a href="/tasks/new">Italian</a></li>
+    <li><a href="/tasks/new">Spanish</a></li>
+    <li><a href="/tasks/new">German</a></li>
+    <li><a href="/tasks/new">Polish</a></li>
+    <li><a href="/tasks/new">Russian</a></li>
+    <li><a href="/tasks/new">Greek</a></li>
+    <li><a href="/tasks/new">More languages</a></li>
+  </ul>
+</div>-->
+
+        <%= yield %>
+
+    </div>
+</body>
+</html>

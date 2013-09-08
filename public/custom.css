@@ -1,0 +1,9 @@
+body { 
+    background: url('lightpaperfibers.png') repeat 0 0;
+}
+
+p {
+    font-family: 'Alice', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 15px;
+}
