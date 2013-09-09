@@ -441,11 +441,11 @@ get '/it3' do
   erb :names
 end
 
-get '/sp4' do
+get '/it4' do
   erb :names
 end
 
-get '/sp5' do
+get '/it5' do
   erb :names
 end
 
@@ -628,7 +628,7 @@ post '/fr1' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -644,7 +644,7 @@ post '/fr2' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -659,7 +659,7 @@ post '/fr3' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -674,7 +674,7 @@ post '/fr4' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -689,7 +689,7 @@ post '/fr5' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -707,7 +707,7 @@ post '/sp1' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -722,7 +722,7 @@ post '/sp2' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -737,7 +737,7 @@ post '/sp3' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -752,7 +752,7 @@ post '/sp4' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -767,7 +767,7 @@ post '/sp5' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -784,7 +784,7 @@ post '/it1' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -799,7 +799,7 @@ post '/it2' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -814,7 +814,7 @@ post '/it3' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -829,7 +829,7 @@ post '/it4' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -844,7 +844,7 @@ post '/it5' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -862,7 +862,7 @@ post '/g1' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -877,7 +877,7 @@ post '/g2' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -892,7 +892,7 @@ post '/g3' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -907,7 +907,7 @@ post '/g4' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -922,7 +922,7 @@ post '/g5' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -939,7 +939,7 @@ post '/pl1' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -954,7 +954,7 @@ post '/pl2' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -969,7 +969,7 @@ post '/pl3' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -984,7 +984,7 @@ post '/pl4' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -999,7 +999,7 @@ post '/pl5' do
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -1010,14 +1010,14 @@ end
 
 # RUSSIAN POST -----------------------------------------------------------------------------
 
-post '/fr1' do
-  @message = 'fr1'
+post '/r1' do
+  @message = 'r1'
   @yourname = params[:your_name]
   @lovername = params[:lover_name]
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -1025,14 +1025,14 @@ post '/fr1' do
   erb :sent
 end
 
-post '/fr2' do
-  @message = 'fr2'
+post '/r2' do
+  @message = 'r2'
   @yourname = params[:your_name]
   @lovername = params[:lover_name]
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -1040,14 +1040,14 @@ post '/fr2' do
   erb :sent
 end
 
-post '/fr3' do
-  @message = 'fr3'
+post '/r3' do
+  @message = 'r3'
   @yourname = params[:your_name]
   @lovername = params[:lover_name]
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -1055,14 +1055,14 @@ post '/fr3' do
   erb :sent
 end
 
-post '/fr4' do
-  @message = 'fr4'
+post '/r4' do
+  @message = 'r4'
   @yourname = params[:your_name]
   @lovername = params[:lover_name]
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
@@ -1070,14 +1070,14 @@ post '/fr4' do
   erb :sent
 end
 
-post '/fr5' do
-  @message = 'fr5'
+post '/r5' do
+  @message = 'r5'
   @yourname = params[:your_name]
   @lovername = params[:lover_name]
   loveremail = params[:lover_email]
 
   Pony.mail( :to => loveremail,
-             :subject => "<%= @yourname %> has sent you a love message",
+             :subject => "You've been sent a love message",
              :body => erb(:email, :layout => false)   )
   u = User.new
   u.save
