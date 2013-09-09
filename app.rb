@@ -131,13 +131,13 @@ end
 get '/it4/:lovername/:name' do
   @name = params[:name]
   @lovername = params[:lovername]
-  erb :manos
+  erb :vita
 end
 
 get '/it5/:lovername/:name' do
   @name = params[:name]
   @lovername = params[:lovername]
-  erb :manana
+  erb :volare
 end
 
 
@@ -295,11 +295,11 @@ get '/it3preview' do
 end
 
 get '/it4preview' do
-  erb :zawszepreview
+  erb :vitapreview
 end
 
 get '/it5preview' do
-  erb :wieszpreview
+  erb :volarepreview
 end
 
 
@@ -633,6 +633,7 @@ post '/fr1' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
