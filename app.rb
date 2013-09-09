@@ -706,6 +706,7 @@ post '/fr2' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -721,6 +722,7 @@ post '/fr3' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -736,6 +738,7 @@ post '/fr4' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -751,6 +754,7 @@ post '/fr5' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -769,6 +773,7 @@ post '/sp1' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -784,6 +789,7 @@ post '/sp2' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -799,6 +805,7 @@ post '/sp3' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -814,6 +821,7 @@ post '/sp4' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -829,6 +837,7 @@ post '/sp5' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -846,6 +855,7 @@ post '/it1' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -861,6 +871,7 @@ post '/it2' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -876,6 +887,7 @@ post '/it3' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -891,6 +903,7 @@ post '/it4' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -906,6 +919,7 @@ post '/it5' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -924,6 +938,7 @@ post '/g1' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -939,6 +954,7 @@ post '/g2' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -954,6 +970,7 @@ post '/g3' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -969,6 +986,7 @@ post '/g4' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -984,6 +1002,7 @@ post '/g5' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -1001,6 +1020,7 @@ post '/pl1' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -1016,6 +1036,7 @@ post '/pl2' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -1031,6 +1052,7 @@ post '/pl3' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -1046,6 +1068,7 @@ post '/pl4' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -1061,6 +1084,7 @@ post '/pl5' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -1079,6 +1103,7 @@ post '/r1' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -1094,6 +1119,7 @@ post '/r2' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -1109,6 +1135,7 @@ post '/r3' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -1124,6 +1151,7 @@ post '/r4' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
 
@@ -1139,5 +1167,6 @@ post '/r5' do
   u = User.new
   u.save
 
+  @count = User.count
   erb :sent
 end
