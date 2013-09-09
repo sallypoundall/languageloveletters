@@ -24,7 +24,7 @@ Pony.options = {
       :user_name            => ENV['USER_NAME'],
       :password             => ENV['PASSWORD'],
       :authentication       => :plain, # :plain, :login, :cram_md5, no auth by default
-      :domain               => "localhost.localdomain" # the HELO domain provided by the client to the server
+      :domain               => "http://radiant-mesa-2475.herokuapp.com/" # the HELO domain provided by the client to the server
     }
   }
 
