@@ -207,6 +207,39 @@ get '/pl5/:lovername/:name' do
 end
 
 
+# POLISH FINAL ----------------------------------------------------------
+
+get '/r1/:lovername/:name' do
+  @name = params[:name]
+  @lovername = params[:lovername]
+  erb :r1
+end
+
+get '/r2/:lovername/:name' do
+  @name = params[:name]
+  @lovername = params[:lovername]
+  erb :r2
+end
+
+get '/r3/:lovername/:name' do
+  @name = params[:name]
+  @lovername = params[:lovername]
+  erb :r3
+end
+
+get '/r4/:lovername/:name' do
+  @name = params[:name]
+  @lovername = params[:lovername]
+  erb :r4
+end
+
+get '/r5/:lovername/:name' do
+  @name = params[:name]
+  @lovername = params[:lovername]
+  erb :r5
+end
+
+
 # language options ----------------------------------------------
 
 get '/frenchromance' do
@@ -360,20 +393,20 @@ get '/r1preview' do
   erb :r1preview
 end
 
-get '/g2preview' do
-  erb :lebenspreview
+get '/r2preview' do
+  erb :r2preview
 end
 
-get '/g3preview' do
-  erb :immerpreview
+get '/r3preview' do
+  erb :r3preview
 end
 
-get '/g4preview' do
-  erb :meerpreview
+get '/r4preview' do
+  erb :r4preview
 end
 
-get '/g5preview' do
-  erb :sinpreview
+get '/r5preview' do
+  erb :r5preview
 end
 
 
@@ -494,6 +527,30 @@ get '/pl4' do
 end
 
 get '/pl5' do
+  erb :names
+end
+
+
+# RUSSIAN NAMES ---------------------------------------------------------------
+
+get '/r1' do
+  erb :names
+end
+
+get '/r2' do
+  erb :names
+end
+
+
+get '/r3' do
+  erb :names
+end
+
+get '/r4' do
+  erb :names
+end
+
+get '/r5' do
   erb :names
 end
 
